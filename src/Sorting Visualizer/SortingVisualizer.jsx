@@ -128,7 +128,6 @@ const SortingVisualizer = () => {
       <button onClick={selectionSort}>Selection Sort</button>
       <button onClick={mergeSort}>Merge Sort</button>
       <button onClick={quickSort}>Quick Sort</button>
-      <input type="color"></input>
       <div className="array-container">
         {array.map((value, keyVal) => {
           return (
